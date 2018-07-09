@@ -59,7 +59,12 @@
       "js",
       "jsx",
       "json"
-    ]
+    ],
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "./config/tsconfig.json"
+      }
+    }
   },
   "dependencies": {
     "babel-plugin-istanbul": "^4.1.6",
